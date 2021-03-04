@@ -71,7 +71,6 @@
 
 #Contact_us .Contact_links ul li {
   margin-right: 1rem;
-  font-size: 2rem;
 }
 
 #Contact_us .Contact_links ul li:last-child {
@@ -80,6 +79,7 @@
 }
 
 #Contact_us .Contact_links ul li a {
+  font-size: 2rem;
   color: #fffbfb;
 }
 
@@ -112,6 +112,7 @@
   #Contact_us .ContactUs {
     width: 100%;
     line-height: 1.5;
+    font-size: 0.9rem;
   }
   #Contact_us .Contact_links {
     width: 100%;
@@ -131,6 +132,7 @@
   #Contact_us .ContactUs {
     width: 100%;
     line-height: 1.7;
+    font-size: 1rem;
   }
   #Contact_us .Contact_links {
     width: 100%;

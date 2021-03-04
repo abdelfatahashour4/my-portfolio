@@ -46,13 +46,13 @@ nav .nav-list li a {
 
 @media (max-width: 575.98px) {
   nav ul li a {
-    font-size: 0.75rem !important;
+    font-size: 0.75rem;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   nav ul li a {
-    font-size: 0.75rem !important;
+    font-size: 0.75rem;
   }
 }
 /*# sourceMappingURL=nav.css.map */
