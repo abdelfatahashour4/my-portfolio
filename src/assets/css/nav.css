@@ -1,0 +1,58 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+nav .nav-list li {
+  margin-right: 1rem;
+  padding: 1.5rem 0rem;
+}
+
+nav .nav-list li:hover a {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: 1px 1px 4px 0px #ccc751;
+  box-shadow: 1px 1px 4px 0px #ccc751;
+}
+
+nav .nav-list li a {
+  color: #fffbfb;
+  text-decoration: none;
+  font-size: 1.7rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 575.98px) {
+  nav ul li a {
+    font-size: 0.75rem !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav ul li a {
+    font-size: 0.75rem !important;
+  }
+}
+/*# sourceMappingURL=nav.css.map */

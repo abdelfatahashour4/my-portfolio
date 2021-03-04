@@ -1,0 +1,71 @@
+@import "variables_css.scss";
+@import "mixin.scss";
+
+#Contact_us {
+  @include flex_row;
+  min-height: 20rem;
+  .ContactUs {
+    @include flex_items_center;
+    width: 50%;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2.5;
+  }
+  .Contact_links {
+    @include flex_items_center;
+    width: 50%;
+    min-height: 20rem;
+    height: 100%;
+    ul {
+      @include flex_content_center;
+      width: 100%;
+      height: 50%;
+      list-style: none;
+      li {
+        &:last-child {
+          font-size: 1rem;
+          display: block;
+        }
+        margin-right: 1rem;
+        font-size: 2rem;
+        a {
+          color: $first_color;
+        }
+      }
+    }
+    div {
+      @include flex_row;
+      span {
+        padding: 0 0.5rem;
+      }
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  #Contact_us {
+    @include flex_column;
+    .ContactUs {
+      width: 100%;
+      line-height: 1.5;
+    }
+    .Contact_links {
+      width: 100%;
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #Contact_us {
+    @include flex_column;
+    .ContactUs {
+      width: 100%;
+      line-height: 1.7;
+    }
+    .Contact_links {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid #fffbfb !important;
+  width: auto;
+  border-radius: 0.5rem;
+  outline: 0;
+  border: 0;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fffbfb;
+  font-size: 1.7rem;
+}
+/*# sourceMappingURL=Buttons.css.map */

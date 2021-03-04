@@ -1,0 +1,30 @@
+@import "./variables_css.scss";
+@import "./mixin.scss";
+
+.Technologies {
+  //   @include flex_content_center;
+  width: 100%;
+  min-height: 8rem;
+  margin-bottom: 5rem;
+
+  .list-technologies {
+    @include flex_content_center;
+    width: 75%;
+    margin: 0 auto;
+    list-style: none;
+    flex-wrap: wrap;
+    li {
+      font-size: 3rem;
+      text-decoration: none;
+      width: 20%;
+      height: 5rem;
+      margin-bottom: 3rem;
+      text-align: center;
+
+      &:hover {
+        transform: scale(1.15);
+        transition: all 0.2s;
+      }
+    }
+  }
+}

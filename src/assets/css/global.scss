@@ -1,0 +1,50 @@
+@import "./variables_css.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 1rem;
+  color: $first_color;
+  background-color: $first_bgc;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  .container {
+    width: 95%;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    font-size: 0.85rem;
+  }
+  .container {
+    width: 90%;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    font-size: 0.95rem;
+  }
+}

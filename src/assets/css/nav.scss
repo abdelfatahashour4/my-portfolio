@@ -1,0 +1,53 @@
+@import "./variables_css.scss";
+@import "./mixin.scss";
+nav {
+  @include flex_space_around;
+  .nav-list {
+    @include flex_space_between;
+    list-style: none;
+
+    li {
+      margin-right: 1rem;
+      padding: 1.5rem 0rem;
+
+      &:hover a {
+        transition: all 0.5s;
+        -webkit-box-shadow: 1px 1px 4px 0px #ccc751;
+        -moz-box-shadow: 1px 1px 4px 0px #ccc751;
+        box-shadow: 1px 1px 4px 0px #ccc751;
+      }
+      a {
+        color: $first_color;
+        text-decoration: none;
+        font-size: 1.7rem;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  nav {
+    ul {
+      li {
+        a {
+          font-size: 0.75rem !important;
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav {
+    ul {
+      li {
+        a {
+          font-size: 0.75rem !important;
+        }
+      }
+    }
+  }
+}

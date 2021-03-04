@@ -1,0 +1,14 @@
+@import "./variables_css.scss";
+.btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid $first_color !important;
+  width: auto;
+  border-radius: 0.5rem;
+  outline: 0;
+  border: 0;
+  a {
+    text-decoration: none;
+    color: $first_color;
+    font-size: 1.7rem;
+  }
+}

@@ -1,0 +1,43 @@
+.Technologies {
+  width: 100%;
+  min-height: 8rem;
+  margin-bottom: 5rem;
+}
+
+.Technologies .list-technologies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+  margin: 0 auto;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Technologies .list-technologies li {
+  font-size: 3rem;
+  text-decoration: none;
+  width: 20%;
+  height: 5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.Technologies .list-technologies li:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/*# sourceMappingURL=section_technologies.css.map */

@@ -1,0 +1,90 @@
+@import "./variables_css.scss";
+@import "./mixin.scss";
+#services {
+  width: 100%;
+  min-height: 100vh;
+  @include flex_space_around;
+  @include flex_row;
+  margin-bottom: 5rem;
+  .service {
+    @include flex_row;
+    max-width: 45%;
+    overflow: hidden;
+    margin-bottom: 5rem;
+    padding: 0.5rem 0;
+    .Icon_Service {
+      width: 20%;
+      @include flex_items_center;
+      span {
+        font-size: 4rem;
+        &:hover {
+          transform: scale(1.2);
+          cursor: pointer;
+          transition: all 0.25s;
+        }
+      }
+    }
+    .content_service {
+      @include flex_items_center;
+      align-items: flex-start;
+      width: 80%;
+      h3 {
+        margin-bottom: 0.75rem;
+        font-size: 150%;
+      }
+      p {
+        font-size: 14;
+        word-wrap: break-word;
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 575.5px) {
+  #services {
+    .service {
+      min-width: 100% !important;
+      width: 100%;
+      margin-bottom: 1.5rem;
+      .Icon_Service {
+        span {
+          font-size: 2.5rem;
+        }
+      }
+      .content_service {
+        h3 {
+          margin-bottom: 0.75rem;
+        }
+        p {
+          font-size: 12;
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #services {
+    .service {
+      min-width: 100% !important;
+      width: 100%;
+      margin-bottom: 1.5rem;
+      .Icon_Service {
+        span {
+          font-size: 2rem;
+        }
+      }
+      .content_service {
+        h3 {
+          margin-bottom: 0.5rem;
+        }
+        p {
+          font-size: 13;
+        }
+      }
+    }
+  }
+}
