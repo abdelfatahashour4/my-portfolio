@@ -8,14 +8,14 @@ const projects = [
     image: "/projects/BOGGY - official.png",
   },
   {
-    link: "https://client-ping-pong.herokuapp.com",
+    link: "https://ping-pong-real-time-chat-application.netlify.app",
     name: "Ping Pong",
     image: "/projects/Ping-Pong.png",
   },
   {
-    link: "https://client-a2-store.herokuapp.com",
+    link: "https://a2-store.netlify.app",
     name: "A2 store",
-    image: "/projects/BOGGY - official.png",
+    image: "/projects/A2 store.png",
   },
 ];
 export default function OurProjects() {
@@ -30,7 +30,7 @@ export default function OurProjects() {
               </div>
               <div className="project_content">
                 <h3>{name}</h3>
-                <a href={link}>
+                <a href={link} target="_blank" rel="noreferrer">
                   <FaLink /> visit
                 </a>
               </div>
