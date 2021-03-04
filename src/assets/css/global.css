@@ -24,7 +24,7 @@ body {
 
 p,
 span {
-  font-family: "Josefin Sans", sans-serif !important;
+  font-family: "Roboto Mono", monospace;
 }
 
 @media (max-width: 575.98px) {
